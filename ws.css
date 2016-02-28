@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+  background-color: black;
+  font-family: Lucida Console;
+}
+
+/* what comes on autocomplete */
+.ui-autocomplete {
+    background: white;
+    list-style-type: none;
+    text-align: left;
+    width: 130px;
+    padding:0; 
+    margin:0;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+
+.ui-helper-hidden-accessible { 
+  display:none; 
+}
+
+.container{
+  margin-top: 20px;
+}
+
+/* how the search results are displayed */
+.items{
+  background-color: white;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+/* how the search bar is displayed
+input{
+  background-color: black;
+  color: white;
+  border: 3px solid orange;
+  border-radius: 20px;
+  outline: 0;
+  text-indent: 10px;
+  font-family: Verdanas;
+}
+
+/* Random article button display */
+button{
+  background-color: black;
+  color: yellow;
+  border: 3px solid orange;
+  margin-left: 20px;
+  border-radius: 20px;
+  font-family: verdana;
+  outline: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+  color: white;
+}
+
+.title{
+  color: orange;
+  font-size: 60px;
+}
